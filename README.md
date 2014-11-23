@@ -16,14 +16,12 @@ platforms (like Twitter) that may not always be working in our best interests.
 
 ##Installation
 
-Someday this will be an actual package and there will be installation
-instructions here. Until then, just clone the repository and copy the
-`mydinosaur` directory where your Python program can see it. The required
-packages are listed in `requirements.txt`; you can install them like so:
+To install with `pip`:
 
-	$ pip install -r requirements.txt
+	$ pip install -e git+git://github.com/aparrish/mydinosaur.git#egg=mydinosaur
 
-(Make a virtualenv first!)
+... or just clone this repository and copy the `mydinosaur` directory to
+a convenient place. Dependencies are listed in `requirements.txt`.
 
 ##Usage
 
